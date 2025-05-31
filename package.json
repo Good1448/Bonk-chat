@@ -1,0 +1,19 @@
+{
+  "name": "bonk-chat",
+  "version": "1.0.0",
+  "description": "BONK实时聊天应用",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
